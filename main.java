@@ -29,6 +29,15 @@ public class main {
 //        }
 //        System.out.println("Out of the block");
 
+        //MultiThereading
 
+//        MultiThreading multiThreading = new MultiThreading();
+//        multiThreading.lpopo();
+//
+//        multiThreading.setThread1(new Thread(new Runnable() {
+//            public void run() {
+//            }
+//        }));
+//        System.out.println(multiThreading.getThread1());
     }
 }
