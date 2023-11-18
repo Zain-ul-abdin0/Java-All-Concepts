@@ -39,5 +39,9 @@ public class main {
 //            }
 //        }));
 //        System.out.println(multiThreading.getThread1());
+
+        Person<String> person = new Person<>();
+        person.setName("John");
+        System.out.println(person.getName());
     }
 }

@@ -1,22 +1,16 @@
-class Person {
-    private String name;
-    private Integer age;
+class Person<T> {
+    private T value;
 
-    public String getName() {
-        return name;
+
+    public T getName() {
+        return value;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(T name) {
+        this.value = name;
     }
 
-    public Integer getAge() {
-        return age;
-    }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
     class Bad {
         private String character;
 
