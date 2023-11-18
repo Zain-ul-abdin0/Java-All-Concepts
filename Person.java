@@ -1,7 +1,10 @@
-class Person<T> {
+ class Person<T> {
     private T value;
+    private Integer age;
 
-
+    public static void print(){
+        System.out.println("Static Function");
+    }
     public T getName() {
         return value;
     }
@@ -10,7 +13,13 @@ class Person<T> {
         this.value = name;
     }
 
+    public Integer getAge() {
+        return age;
+    }
 
+    public void setAge(Integer age) {
+        this.age = age;
+    }
     class Bad {
         private String character;
 
